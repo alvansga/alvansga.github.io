@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Collection - Alva's Space</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)),
+                url('../img/game_bg.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 4rem 2rem;
+        }
+
+        .back-link {
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            z-index: 1000;
+            background: rgba(30, 41, 59, 0.5);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            backdrop-filter: blur(4px);
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="../index.html" class="back-link"><i class="fas fa-arrow-left"></i> Kembali ke Beranda</a>
+
+    <header>
+        <h1>KOLEKSI GAME</h1>
+        <p class="subtitle">Mainkan tantangan serunya sekarang!
+        </p>
+    </header>
+
+    <main class="cards-container">
+        <!-- Chess Pursuit -->
+        <a href="chess-pursuit/index.html" class="card">
+            <div class="card-content">
+                <div class="icon" style="top: 2rem; right: 2rem;"><i class="fas fa-chess-knight"></i></div>
+                <h2>Chess Pursuit</h2>
+                <p>Uji strategi caturmu dalam tantangan yang berbeda dan menantang.</p>
+            </div>
+        </a>
+
+        <!-- Oregon Hell -->
+        <a href="oregonhell/index.html" class="card">
+            <div class="card-content">
+                <div class="icon" style="top: 2rem; right: 2rem;"><i class="fas fa-skull"></i></div>
+                <h2>Oregon Hell</h2>
+                <p>Petualangan bertahan hidup yang intens dengan nuansa klasik.</p>
+            </div>
+        </a>
+
+        <!-- Pop Game Demo -->
+        <a href="pop_game_demo/index.html" class="card">
+            <div class="card-content">
+                <div class="icon" style="top: 2rem; right: 2rem;"><i class="fas fa-bullseye"></i></div>
+                <h2>Pop Game Demo</h2>
+                <p>Uji refleksmu dalam demo game pop yang cepat dan menyenangkan.</p>
+            </div>
+        </a>
+
+        <!-- Rewire -->
+        <a href="rewire/index.html" class="card">
+            <div class="card-content">
+                <div class="icon" style="top: 2rem; right: 2rem;"><i class="fas fa-microchip"></i></div>
+                <h2>Rewire</h2>
+                <p>Hubungkan sirkuit dan selesaikan puzzle logika yang rumit.</p>
+            </div>
+        </a>
+
+        <!-- Stolen Sword -->
+        <a href="stolen-sword/index.html" class="card">
+            <div class="card-content">
+                <div class="icon" style="top: 2rem; right: 2rem;"><i class="fas fa-sword"></i></div>
+                <h2>Stolen Sword</h2>
+                <p>Ambil kembali pedangmu dalam petualangan aksi yang epik.</p>
+            </div>
+        </a>
+
+        <!-- Stolen Sword LS -->
+        <a href="stolen-sword-ls/index.html" class="card">
+            <div class="card-content">
+                <div class="icon" style="top: 2rem; right: 2rem;"><i class="fas fa-shield-halved"></i></div>
+                <h2>Stolen Sword LS</h2>
+                <p>Edisi khusus Stolen Sword dengan tantangan level baru.</p>
+            </div>
+        </a>
+    </main>
+
+    <footer style="margin-top: 5rem; color: var(--text-muted); font-size: 0.8rem; text-align: center;">
+        Disclaimer: game buatan org lain, bukan buatan sendiri!
+
+        <!-- &copy; 2026 Alva. All rights reserved. -->
+    </footer>
+</body>
+
+</html>
